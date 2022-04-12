@@ -1,0 +1,29 @@
+# config file
+data_dir: "/distorage_server/home/zhangt/IPOD/data/00JieLiu/"
+
+species_dir: "/distorage_server/home/zhangt/genomes"
+
+species_name: "Tae2.0"
+
+se_or_pe: "PE"
+
+adapter1: "AGATCGGAAGAGCACACGTCTGAACTCCAGTCA"  # or "auto"
+adapter2: "AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT"  # or "auto"
+
+intron_max: "30000"
+
+bamidxtype: "large" # wheat is large
+
+samples: 
+    M6A_MoCK_0h:
+    # ZD_SR_6h:
+    # ZD_SR_12h:
+    # M6A_SR_24h:
+    # M6A_SR_48h:
+    # M6A_SR_72h:
+    # M6A_SR_120h:
+
+replicates:
+    rep1:
+    rep2:
+    rep3:
